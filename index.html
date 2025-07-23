@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You 💌</title>
+  <style>
+    body {
+      background: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #e91e63;
+      font-size: 2.5rem;
+    }
+
+    .note-box {
+      background: #ffe4ec;
+      border-radius: 15px;
+      padding: 1.5rem;
+      max-width: 600px;
+      margin: 2rem auto;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    .note-box p {
+      font-size: 1.2rem;
+      white-space: pre-wrap;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    .next-button {
+      display: block;
+      margin: 3rem auto 0;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .next-button:hover {
+      background-color: #d81b60;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hi Love 💖</h1>
+  <div class="note-box">
+    <p>
+      Here's a little space just for you.
+      I wanted to leave you a note, something you can come back to anytime.
+
+      [📝 You can write your message here!]
+    </p>
+  </div>
+
+  <div class="gallery">
+    <!-- Replace these image URLs with your own! -->
+    <img src="https://placekitten.com/300/200" alt="Cute pic 1">
+    <img src="https://placebear.com/300/200" alt="Cute pic 2">
+    <img src="https://placebeard.it/300x200" alt="Cute pic 3">
+  </div>
+
+  <button class="next-button" onclick="location.href='love.html'">Next➡️</button>
+</body>
+</html>
